@@ -10,6 +10,7 @@ async function handleSubmit(e) {
   await icp_workshops_backend.greet(name).then((response) => {
     greeting.value = response;
   });
+
 }
 </script>
 
